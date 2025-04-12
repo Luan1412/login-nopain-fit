@@ -26,6 +26,13 @@ section{
     
     flex-grow: 0.3;
     padding: 0 35px;
+
+    span{
+        font-size: 15px;
+        text-decoration: underline;
+        color: black;
+        text-align: start;
+    }
    
     .btn-wrapper{
         display: flex;
@@ -76,6 +83,10 @@ section{
         background-color: transparent;
         padding: 6px 70px;
         cursor: pointer;
+
+        &:disabled{
+            opacity: 0.8;
+        }
 
         &.btn-primary {
             background-color: $primary-color;

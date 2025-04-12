@@ -2,9 +2,16 @@
     <section class="form-section">
         <img class="logo" src="/assets/svg/logo.svg">
         <h2>{{tittle}}</h2>
+        <ng-content></ng-content>
         <div class="btn-wrapper">
-            <button class="btn-primary">{{primaryBtnText}}</button>
-            <button class="btn-secudary">{{secondaryBtnText}}</button>
+            <button 
+                class="btn-primary"
+                (click)="submit()"
+                [disabled]="disablePrimaryBtn"
+                >
+                {{primaryBtnText}}
+            </button>
+            <button class="btn-secudary"(click)="navigate()">{{secondaryBtnText}}</button>
             <div class="divider">
                 <div></div>
                 <span>or</span>
@@ -21,10 +28,11 @@
                     <img src="/assets/svg/apple.svg" alt="apple">
                 </a>
             </div>
+            <span>Esqueceu sua senha?</span>
         </div>
     </section>
     <section class="main-section">
-        <h2>teste</h2>
+        <h2></h2>
         <img src="/assets/svg/ilustracaoPrincipal.svg" alt="">
     </section>
 </main>
