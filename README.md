@@ -1,27 +1,73 @@
 # LoginNopainFit
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.15.
+Este projeto foi gerado com o [Angular CLI](https://angular.io/cli) versão 17.3.15.
 
-## Development server
+## 📋 Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O **LoginNopainFit** é uma aplicação desenvolvida com Angular, focada em fornecer uma interface de login para a plataforma Nopain Fit. A aplicação serve como ponto de entrada para os usuários acessarem os recursos da plataforma.
 
-## Code scaffolding
+## 🚀 Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io/) 17.3.15  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)  
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-## Build
+## ⚙️ Instalação e Execução
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para rodar o projeto localmente, siga os passos abaixo:
 
-## Running unit tests
+### 1️⃣ Clone o repositório:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone https://github.com/Luan1412/login-nopain-fit.git
+cd login-nopain-fit
+```
+### 2️⃣ Instale as dependências:
 
-## Running end-to-end tests
+```bash
+npm install
+```
+### 3️⃣ Inicie o servidor de desenvolvimento:
+```bash
+ng serve
+Acesse http://localhost:4200/ no seu navegador. A aplicação será recarregada automaticamente ao modificar os arquivos fonte.
+```
+### 🧪 Testes
+#### 🔹 Testes unitários:
+Execute o comando abaixo para rodar os testes unitários via Karma:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng test
+```
 
-## Further help
+#### 🔹 Testes de ponta a ponta:
+Execute:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng e2e
+```
+Certifique-se de configurar a plataforma de testes desejada previamente.
+
+### 🛠️ Gerando Componentes
+Para gerar um novo componente, utilize:
+
+```bash
+ng generate component nome-do-componente
+```
+Você também pode usar:
+
+```bash
+Editar
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
+### 📦 Build
+Para compilar o projeto, execute:
+
+```bash
+ng build
+```
+Os artefatos de build serão armazenados no diretório dist/.
+
+## 👤 Autor
+Luan1412 - GitHub
